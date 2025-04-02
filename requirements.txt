@@ -1,0 +1,10 @@
+pandas
+google
+langchain_google_genai
+langchain_community
+langchain_core
+langchain-experimental
+langgraph
+langsmith
+langchainhub
+wikipedia
