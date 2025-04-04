@@ -8,7 +8,7 @@ from langchain_google_genai import GoogleGenerativeAI
 from dotenv import load_dotenv
 import warnings 
 warnings.filterwarnings("ignore")
-
+    
 # 🔐 Load environment variables from .env file
 load_dotenv()
 
