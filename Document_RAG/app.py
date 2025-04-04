@@ -30,7 +30,7 @@ page_bg_img = f"""
 """
 st.markdown(page_bg_img, unsafe_allow_html=True)
 
-st.title("📄 Document Retriever using Gemini 2.0 + FAISS")
+st.title("📄 Chat with your PDF using Gemini 2.0")
 
 # Use session state to persist FAISS index creation
 if "faiss_created" not in st.session_state:
