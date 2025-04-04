@@ -8,9 +8,11 @@ from langchain_google_genai import GoogleGenerativeAI
 from dotenv import load_dotenv
 import warnings 
 warnings.filterwarnings("ignore")
-    
+import streamlit as st
+
 # 🔐 Load environment variables from .env file
-load_dotenv()
+#load_dotenv()
+os.environ["GOOGLE_API_KEY"] = st.secrets["GOOGLE_API_KEY"]
 
 def ask_question_with_gemini(faiss_path, query):
     print("🔄 Loading FAISS index...")
