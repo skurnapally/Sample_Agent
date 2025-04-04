@@ -8,3 +8,13 @@ langgraph
 langsmith
 langchainhub
 wikipedia
+umap
+hdbscan
+sentence_transformers
+scikit-learn
+bertopic
+matplotlib
+kaleido
+datasets
+evaluate
+accelerate>=0.26.0
