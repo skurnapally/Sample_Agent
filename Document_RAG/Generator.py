@@ -31,6 +31,6 @@ def create_faiss_index(pdf_path, save_path):
 
 # 🚀 Run this only when you want to generate the index
 if __name__ == "__main__":
-    pdf_path = "./AttentionisAllyouneed.pdf"
+    pdf_path = "AttentionisAllyouneed.pdf"
     index_path = "faiss_index"
     create_faiss_index(pdf_path, index_path)
